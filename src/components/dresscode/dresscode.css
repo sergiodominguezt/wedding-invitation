@@ -1,0 +1,52 @@
+.dresscode-container {
+  width: 100%;
+  align-items: center;
+  background-color: #f1f0e8;
+  padding: 20px;
+  text-align: center;
+}
+
+.dresscode-container h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #644117;
+}
+
+.dresscode-container img {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.dresscode-container p {
+  color: #644117;
+  font-size: 1rem;
+  font-family: "Enriqueta", serif;
+}
+
+.dresscode-container button {
+  border-radius: 10px;
+  background-color: #644117;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Enriqueta", serif;
+  color: #eee0c9;
+  padding: 5px;
+}
+
+.dresscode-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.dresscode-content p {
+  font-size: 1.5rem;
+}
+.dress-type {
+  display: block;
+  font-family: "Dancing Script", cursive;
+}

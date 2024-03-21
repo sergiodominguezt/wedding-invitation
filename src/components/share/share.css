@@ -1,0 +1,49 @@
+.share-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #eee0c9;
+}
+
+.share-container h1 {
+  font-family: "Dancing Script", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #644117;
+}
+
+.share-container p {
+  font-family: "Enriqueta", serif;
+  text-align: center;
+  font-size: 1rem;
+  color: #644117;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.spotify-icon {
+  font-size: 5rem; /* Adjust the font size to make the icon bigger */
+  color: #644117; /* Set the color of the icon */
+  align-items: center;
+  text-align: center;
+  margin-top: -15px;
+  animation: jump 0.8s infinite;
+  /* Add any addition
+  al styles you want */
+}
+
+.spotify-icon a:visited {
+  color: inherit;
+  text-decoration: none;
+}

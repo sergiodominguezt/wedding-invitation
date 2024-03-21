@@ -1,0 +1,29 @@
+.carousel-container {
+  background-color: #f1f0e8;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.carousel-container h1 {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #644117;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    max-width: 90%; /* Set a larger width for desktop */
+  }
+}

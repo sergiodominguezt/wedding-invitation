@@ -1,0 +1,83 @@
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-image {
+  width: 100vw;
+  height: 70%;
+  object-fit: cover;
+}
+
+.texto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto h1 {
+  font-family: "Dancing Script", cursive;
+  color: #644117;
+  font-size: 8rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .texto h1 {
+    font-size: 4rem;
+  }
+
+  .texto-angieysergio {
+    padding-top: 70px;
+  }
+
+  .texto-angieysergio h2 {
+    font-size: 1rem;
+  }
+}
+
+.our-story-title {
+  font-family: "Enriqueta", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1f0e8;
+  padding: 0;
+}
+
+.our-story-img {
+  display: flex;
+  background-color: #f1f0e8;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.our-story-img img {
+  width: 75px;
+  background-color: #f1f0e8;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-date {
+  display: flex;
+  background-color: #f1f0e8;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 10px;
+}
+.banner-date h2 {
+  color: #644117;
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+}

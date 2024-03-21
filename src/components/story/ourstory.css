@@ -1,0 +1,81 @@
+.our-story {
+  display: flex;
+  flex-direction: column; /* Ensure elements stack vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: #f1f0e8;
+  padding-top: 140px;
+}
+
+.our-story-title {
+  font-size: 1.5rem;
+  font-family: "Enriqueta", serif;
+  text-align: center;
+  justify-items: center;
+}
+
+.our-story h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #644117;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.circle-container {
+  position: relative;
+  text-align: center;
+}
+
+.circle-image {
+  width: 390px;
+  height: 390px;
+  border-radius: 50%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text vertically and horizontally */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-family: "Dancing Script", cursive;
+  color: #644117; /* Text color */
+}
+
+@media (min-width: 768px) {
+  .our-story {
+    justify-content: space-around;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #eee0c9;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem !important;
+  font-family: "Dancing Script", cursive;
+  color: #644117 !important;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-family: "Enriqueta", serif;
+  color: #644117;
+}

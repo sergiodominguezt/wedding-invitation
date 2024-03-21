@@ -1,0 +1,28 @@
+.wedding-rules-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #eee0c9;
+}
+
+.wedding-rules-container h1 {
+  font-family: "Dancing Script", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #644117;
+}
+
+.wedding-rules-list ul {
+  font-size: 1rem;
+  font-family: "Enriqueta", serif;
+  color: #644117;
+  text-align: center;
+}
+
+.wedding-rules-list p {
+  font-size: 1rem;
+  font-family: "Enriqueta", serif;
+  color: #644117;
+  text-align: center;
+}

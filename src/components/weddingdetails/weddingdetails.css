@@ -1,0 +1,115 @@
+.wedding-details-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #eee0c9;
+}
+
+.wedding-details-container h1 {
+  font-family: "Dancing Script", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #644117;
+}
+.wedding-details-container h2 {
+  padding: 20px;
+  font-family: "Enriqueta", serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #644117;
+}
+
+.wedding-details-container p {
+  font-family: "Enriqueta", serif;
+  color: #644117;
+  font-weight: 600;
+}
+
+.ceremony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ceremony-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+
+.ceremony-text,
+.ceremony-image {
+  flex: 1;
+}
+
+.ceremony-content p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.ceremony-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px;
+  font-family: "Enriqueta", serif;
+  font-size: 1.5rem;
+  color: #644117;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f0e8;
+}
+
+.reception {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reception-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.reception-text,
+.reception-image {
+  flex: 1;
+}
+
+.reception-content p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.reception-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .ceremony-content p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .reception-content p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+}
