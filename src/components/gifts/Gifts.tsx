@@ -1,4 +1,3 @@
-import React from "react";
 import "./gifts.css";
 import gift from "../../assets/gifts.png";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./ourstory.css";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
 import flowersbg from "../../assets/flowers-bg.png";

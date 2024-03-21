@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import songFile from "./fonseca-envivoydirecto.mp3";
 import artWork from "../../assets/musicPlayer.jfif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,8 +19,8 @@ type TrackInfo = {
 function MusicPlayer() {
   const [audio] = useState(new Audio(songFile));
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [trackInfo, setTrackInfo] = useState<TrackInfo>({
+  const [] = useState(0);
+  const [trackInfo] = useState<TrackInfo>({
     albumName: "Album Name", // Set your album name here
     trackName: "Track Name", // Set your track name here
     albumArtUrl: artWork, // Use your album art URL

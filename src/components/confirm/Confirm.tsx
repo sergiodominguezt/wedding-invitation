@@ -1,4 +1,3 @@
-import React from "react";
 import "./confirm.css";
 import { FaWhatsapp } from "react-icons/fa";
 

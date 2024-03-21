@@ -1,6 +1,4 @@
-import React from "react";
 import "./share.css";
-
 import { FaSpotify } from "react-icons/fa";
 
 function Share() {

@@ -1,4 +1,3 @@
-import React from "react";
 import "./weddingdetails.css";
 import chapel from "../../assets/churchedited.png";
 import cheers from "../../assets/cheerseditedfinal.png";

@@ -1,4 +1,3 @@
-import React from "react";
 import dressCode from "../../assets/dresscode.png";
 import "./dresscode.css";
 

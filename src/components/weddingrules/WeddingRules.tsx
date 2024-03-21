@@ -1,4 +1,3 @@
-import React from "react";
 import "./weddingrules.css";
 import { CgCross } from "react-icons/cg";
 
