@@ -10,7 +10,10 @@ function Share() {
         Agrega la música que deseas escuchar dando clic en el ícono de Spotify
       </p>
       <div className="spotify-icon">
-        <a href="https://www.google.com" target="_blank">
+        <a
+          href="https://open.spotify.com/playlist/6IH5iUh1oksNhEZZFsvd1q?si=c2_Mw4XhSBCHfHJQtDVlLw&pi=u-cF-w4JpVTAWS&pt=e36d716698ff564e3cb985968bb9914f"
+          target="_blank"
+        >
           <FaSpotify className="spotify-icon" />
         </a>
       </div>

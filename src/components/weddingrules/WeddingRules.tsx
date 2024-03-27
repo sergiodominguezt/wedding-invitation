@@ -13,7 +13,7 @@ function WeddingRules() {
           en casa.
         </p>
         <p>
-          <CgCross /> ¡Prepárense para una boda llena de colores. Evita los
+          <CgCross /> ¡Prepárense para una boda llena de colores!. Evita los
           colores blanco (mujeres), crema, azul o derivados en tu outfit.
         </p>
         <p>
