@@ -5,7 +5,7 @@
 }
 
 .share-container h1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .share-container p {
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 1rem;
   color: #644117;

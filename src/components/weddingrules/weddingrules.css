@@ -5,7 +5,7 @@
 }
 
 .wedding-rules-container h1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -15,14 +15,14 @@
 
 .wedding-rules-list ul {
   font-size: 1rem;
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
   color: #644117;
   text-align: center;
 }
 
 .wedding-rules-list p {
   font-size: 1rem;
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
   color: #644117;
   text-align: center;
 }

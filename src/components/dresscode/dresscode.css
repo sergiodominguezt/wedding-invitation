@@ -7,7 +7,7 @@
 }
 
 .dresscode-container h1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   text-align: center;
   font-size: 2.5rem;
   color: #644117;
@@ -21,15 +21,15 @@
 .dresscode-container p {
   color: #644117;
   font-size: 1rem;
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .dresscode-container button {
   border-radius: 10px;
   background-color: #644117;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-family: "Enriqueta", serif;
+  font-size: 1rem;
+
+  font-family: "Poppins", sans-serif;
   color: #eee0c9;
   padding: 5px;
 }
@@ -48,5 +48,5 @@
 }
 .dress-type {
   display: block;
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
 }

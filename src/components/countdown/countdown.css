@@ -1,66 +1,60 @@
 .countdown-timer {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EEE0C9;
-    padding: 20px;
-    padding-bottom: 50px;
-    border-radius: 10px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee0c9;
+  padding: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+.shadowed {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
 
-   }
-   .shadowed {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding-bottom: 20px;
-   
-   }
-   
-   .countdown-item {
-    margin: 0 10px 0 10px;
-    justify-content: center;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
+.countdown-item {
+  margin: 0 10px 0 10px;
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .countdown-timer-title {
-    color: #a18826; 
-    position: inherit;
-   
-    width: 100%;
-    border-radius: 10px;
-    margin: 0px;
-    
-   }
+.countdown-timer-title {
+  color: #a18826;
+  position: inherit;
 
-   .countdown-timer-title h1 {
-    
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    margin-top: -50px;
-    font-size: 1.5rem;
-    
-   }
-   
-   .countdown-item p {
-    font-family: "Enriqueta", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #EEE0C9;
-    color: #a18826;  
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem; 
-   }
-   
-   .countdown-item span {
-    font-family: "Enriqueta", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #a18826;
-    font-size: 0.8rem;
-    
-   }
+  width: 100%;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.countdown-timer-title h1 {
+  font-family: "Rochester", cursive;
+  text-align: center;
+  margin-top: -60px;
+  font-size: 1.5rem;
+}
+
+.countdown-item p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #eee0c9;
+  color: #a18826;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.countdown-item span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a18826;
+  font-size: 0.8rem;
+}

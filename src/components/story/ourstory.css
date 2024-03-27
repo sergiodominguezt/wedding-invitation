@@ -8,13 +8,13 @@
 
 .our-story-title {
   font-size: 1.5rem;
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   justify-items: center;
 }
 
 .our-story h1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   text-align: center;
   font-size: 2.5rem;
   color: #644117;
@@ -42,7 +42,7 @@
     -50%
   ); /* Center the text vertically and horizontally */
   font-size: 2rem; /* Adjust font size as needed */
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   color: #644117; /* Text color */
 }
 
@@ -70,12 +70,12 @@
 
 .card-title {
   font-size: 1.5rem !important;
-  font-family: "Dancing Script", cursive;
+  font-family: "Rochester", cursive;
   color: #644117 !important;
 }
 
 .card-text {
   font-size: 1rem;
-  font-family: "Enriqueta", serif;
+  font-family: "Poppins", sans-serif;
   color: #644117;
 }
