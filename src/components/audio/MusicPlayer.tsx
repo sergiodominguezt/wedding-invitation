@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import songFile from "./fonseca-envivoydirecto.mp3";
-import artWork from "../../assets/musicPlayer.jfif";
+import artWork from "../../assets/DSC08207.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPlay,

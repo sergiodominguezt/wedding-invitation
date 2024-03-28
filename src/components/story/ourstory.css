@@ -14,7 +14,7 @@
 }
 
 .our-story h1 {
-  font-family: "Rochester", cursive;
+  font-family: "Dancing Script", cursive;
   text-align: center;
   font-size: 2.5rem;
   color: #644117;
@@ -42,7 +42,7 @@
     -50%
   ); /* Center the text vertically and horizontally */
   font-size: 2rem; /* Adjust font size as needed */
-  font-family: "Rochester", cursive;
+  font-family: "Dancing Script", cursive;
   color: #644117; /* Text color */
 }
 
@@ -70,7 +70,7 @@
 
 .card-title {
   font-size: 1.5rem !important;
-  font-family: "Rochester", cursive;
+  font-family: "Dancing Script", cursive;
   color: #644117 !important;
 }
 
