@@ -11,7 +11,7 @@ function Share() {
       </p>
       <div className="spotify-icon">
         <a
-          href="https://open.spotify.com/playlist/6IH5iUh1oksNhEZZFsvd1q?si=c2_Mw4XhSBCHfHJQtDVlLw&pi=u-cF-w4JpVTAWS&pt=e36d716698ff564e3cb985968bb9914f"
+          href="https://open.spotify.com/playlist/6IH5iUh1oksNhEZZFsvd1q?si=4esfr7OhTziAs95TG2JHVg&pi=u-7PuqEhRTT4yW&pt=9cdfa6ca77b1415a0996a1f6e9a88299"
           target="_blank"
         >
           <FaSpotify className="spotify-icon" />
