@@ -14,7 +14,7 @@ export default function WeddingDetails() {
         <h2>Ceremonia</h2>
         <div className="ceremony-content">
           <div className="ceremony-text">
-            <p className="ceremony-hour">04:00 p.m.</p>
+            <p className="ceremony-hour">03:30 p.m.</p>
             <p className="ceremony-place">Capilla Nuestra Señora del Carmen</p>
             <p>Ruitoque Bajo, Santander</p>
           </div>
